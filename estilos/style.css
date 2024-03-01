@@ -49,6 +49,7 @@ div#formulario > h1{
     font-size: 1.5em;
     text-align: center;
     padding: 10px;
+    padding-bottom: 1px;
 }
 
 div#formulario > p {
@@ -65,6 +66,7 @@ form > div#email {
     height: 40px;
     border-radius: 10px;
     margin: 10px;
+    margin-top: 5px;
 }
 
 form > div#email > input {
@@ -121,4 +123,30 @@ div#entrar > input[type = submit] {
     width: 100%;
     margin-top: -12px;
     cursor: pointer;
+}
+
+div#entrar > input[type = submit]:hover {
+    background-color: #0032D8;
+}
+
+a#botao {
+    display: block;
+    color:  #000513;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #010D26;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+a#botao:hover {
+    background-color: #94cfcd;
+}
+
+a#botao > span.material-icons {
+    font-size: 0.8em;
+    color: #000513;
 }
