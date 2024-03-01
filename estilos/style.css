@@ -94,5 +94,15 @@ form > div#senha > input {
     border-radius: 10px;
     margin-left: 40px;
     padding: 4px;
-    transform: translate(5px, 5px);
-}  
+    transform: translate(5px, -22px);
+}
+
+form > div#email > span.material-icons {
+    transform: translate(9px, 7px);
+    color: white;
+}
+
+form > div#senha > span.material-icons {
+    transform: translate(9px, 7px);
+    color: white;
+}
