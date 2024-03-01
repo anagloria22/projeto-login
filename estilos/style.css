@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 /* Cores
-   Verde: #49a09d
-   Lilás: #5f2c82
+   Azul escuro: #010D26
+   Azul menos escuro: #03318C
+   Azul: #0076CB
+   Azul mais claro: #94cfcd
 */
 
 * {
@@ -13,7 +15,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #010D26;
     height: 100vh;
     width: 100vw
 }
@@ -37,10 +39,10 @@ div#login {
 }
 
 div#login > div#foto {
-    background: #5f2c82 url(../imagens/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
+    background: #010D26 url(../imagens/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
     background-size: cover;
     height: 200px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
 }
 
 div#formulario > h1{
@@ -59,7 +61,7 @@ div#formulario > p {
 
 form > div#email {
     display: block;
-    background-color: #5f2c82;
+    background-color: #03318C;
     height: 40px;
     border-radius: 10px;
     margin: 10px;
@@ -79,10 +81,11 @@ form > div#email > input {
 
 form > div#senha {
     display: block;
-    background-color: #5f2c82;
+    background-color: #03318C;
     height: 40px;
     border-radius: 10px;
     margin: 10px;
+    margin-top: -7px;
 }
 
 form > div#senha > input {
@@ -105,4 +108,17 @@ form > div#email > span.material-icons {
 form > div#senha > span.material-icons {
     transform: translate(9px, 7px);
     color: white;
+}
+
+div#entrar > input[type = submit] {
+    display: block;
+    background-color: #0076CB;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 16.8vw;
+    margin-top: -12px;
+    cursor: pointer;
 }
