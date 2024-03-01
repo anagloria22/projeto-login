@@ -71,7 +71,7 @@ form > div#email > input {
     display: block;
     background-color: #94cfcd;
     height: 30px;
-    width: 13vw;
+    width: 75%;
     border: 0px;
     border-radius: 10px;
     margin-left: 40px;
@@ -92,7 +92,7 @@ form > div#senha > input {
     display: block;
     background-color: #94cfcd;
     height: 30px;
-    width: 13vw;
+    width: 75%;
     border: 0px;
     border-radius: 10px;
     margin-left: 40px;
@@ -118,7 +118,7 @@ div#entrar > input[type = submit] {
     height: 40px;
     border: none;
     border-radius: 10px;
-    width: 16.8vw;
+    width: 100%;
     margin-top: -12px;
     cursor: pointer;
 }
