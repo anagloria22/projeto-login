@@ -40,10 +40,10 @@ div#login {
 }
 
 div#foto {
+    display: block;
     background: #010D26 url(../imagens/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
     background-size: cover;
     height: 200px;
-    border-radius: 16px 16px 0px 0px;
 }
 
 div#formulario {
