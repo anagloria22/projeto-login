@@ -1,7 +1,31 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background: linear-gradient(to top, #010D26, #0460D9);
+    }
+
+    div#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#foto {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    form > div#email > input {
+        width: 88%;
+    }
+
+    form > div#senha > input {
+        width: 88%;
     }
 }
